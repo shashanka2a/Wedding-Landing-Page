@@ -8,7 +8,7 @@ const dmSerif = DM_Serif_Display({ weight: "400", subsets: ["latin"], variable: 
 export const metadata: Metadata = {
   title: "Wedding Invitation",
   description: "Wedding of Sai Harika & Aravind",
-  icons: { icon: "/favicon.ico" },
+  icons: { icon: "/icon.svg" },
   openGraph: {
     title: "Wedding Invitation",
     description: "Join us in celebration",
