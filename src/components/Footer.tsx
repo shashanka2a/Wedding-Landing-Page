@@ -39,20 +39,22 @@ export function Footer() {
           <div className="h-px w-24 bg-[#D4AF37] opacity-40" />
         </div>
 
-        {/* Family Message */}
+        {/* Attribution */}
         <motion.p
           className="text-[#FAF4E8] opacity-90 mb-6"
-          style={{ fontFamily: 'Great Vibes, cursive', fontSize: '1.75rem' }}
-          animate={{
-            opacity: [0.8, 1, 0.8]
-          }}
-          transition={{
-            duration: 3,
-            repeat: Infinity,
-            ease: "easeInOut"
-          }}
+          style={{ fontFamily: 'Great Vibes, cursive', fontSize: '1.25rem' }}
+          animate={{ opacity: [0.8, 1, 0.8] }}
+          transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
         >
-          With love from the families 💛
+          made with ❤️ by {" "}
+          <a
+            href="http://bloomora.services/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline hover:opacity-100 opacity-90"
+          >
+            blooomora
+          </a>
         </motion.p>
 
         {/* Floral Border */}
