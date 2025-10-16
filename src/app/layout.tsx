@@ -6,25 +6,35 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-geist-sans" });
 const dmSerif = DM_Serif_Display({ weight: "400", subsets: ["latin"], variable: "--font-geist-mono" });
 
 export const metadata: Metadata = {
-  title: "Wedding Invitation",
-  description: "Wedding of Sai Harika & Aravind",
+  title: "Aravind & Harika's Wedding Invitation",
+  description: "Join us to celebrate the wedding of Aravind and Harika.",
+  keywords: [
+    "Aravind",
+    "Harika",
+    "Wedding",
+    "Wedding Invitation",
+    "Aravind & Harika",
+    "Banswada",
+    "Grr Convention Hall",
+    "Telugu wedding",
+  ],
   icons: { icon: "/icon.svg" },
   openGraph: {
-    title: "Wedding Invitation",
-    description: "Join us in celebration",
+    title: "Aravind & Harika's Wedding",
+    description: "You're invited to Aravind & Harika's wedding celebration.",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Wedding Invitation",
+        alt: "Aravind & Harika Wedding Invitation",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Wedding Invitation",
-    description: "Join us in celebration",
+    title: "Aravind & Harika's Wedding",
+    description: "You're invited to Aravind & Harika's wedding celebration.",
     images: ["/og-image.png"],
   },
 };
