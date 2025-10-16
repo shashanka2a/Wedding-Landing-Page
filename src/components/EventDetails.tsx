@@ -10,13 +10,6 @@ export function EventDetails() {
       dressCode: 'Traditional Indian Attire',
       emoji: '🪔',
       description: 'Join us for the sacred wedding ceremony'
-    },
-    {
-      title: 'Reception',
-      time: '6:00 PM - 9:00 PM',
-      dressCode: 'Festive / Semi-Formal',
-      emoji: '💃🏽',
-      description: 'Celebrate with dinner and dance'
     }
   ];
 
