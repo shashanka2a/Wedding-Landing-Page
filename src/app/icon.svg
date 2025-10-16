@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Background -->
+  <rect width="64" height="64" fill="#0b0b0b"/>
+  <!-- Minimal figure-eight knot (infinity-style) -->
+  <path
+    d="M16 32
+       C16 20 28 16 32 32
+       C36 48 48 44 48 32
+       C48 20 36 16 32 32
+       C28 48 16 44 16 32"
+    fill="none"
+    stroke="#ffffff"
+    stroke-width="6"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+</svg>
+
