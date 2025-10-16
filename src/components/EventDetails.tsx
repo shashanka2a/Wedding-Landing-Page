@@ -35,7 +35,7 @@ export function EventDetails() {
         </motion.div>
 
         {/* Event Cards */}
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="flex justify-center">
           {events.map((event, index) => (
             <motion.div
               key={index}
