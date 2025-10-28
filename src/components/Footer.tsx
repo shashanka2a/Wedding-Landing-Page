@@ -48,12 +48,12 @@ export function Footer() {
         >
           made with ❤️ by {" "}
           <a
-            href="http://bloomora.services/"
+            href="https://www.knotify.sh/"
             target="_blank"
             rel="noopener noreferrer"
             className="underline hover:opacity-100 opacity-90"
           >
-            blooomora
+            knotify
           </a>
         </motion.p>
 
